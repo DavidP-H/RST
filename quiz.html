@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Quiz</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&family=Orelega+One&family=Oswald:wght@300&family=Poppins:wght@100&display=swap" rel="stylesheet">
+ </head>
+ <body>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="cpu.html">Processors</a></li>
+    <li><a href="motherboards.html">Motherboards</a></li>
+    <li><a href="ram.html">RAM</a></li>
+    <li><a href="storage.html">Storage</a></li>
+    <li><a href="psu.html">Power Supplies</a></li>
+    <li><a href="gpu.html">Graphics</a></li>
+    <li><a href="cooling.html">Cooling</a></li>
+    <li><a href="quiz.html">Quiz</a></li>
+  </ul>
+  <div class="all">
+    <button id="start">Start</button>
+    <div id="quiz">
+      <p id="question1"></p>
+      <input id="answer1">
+      <br><br>
+      <p id="question2"></p>
+      <p id="question2a"></p>
+      <p id="question2b"></p>
+      <input id="answer2">
+      <br><br>
+      <p id="question3"></p>
+      <p id="question3a"></p>
+      <p id="question3b"></p>
+      <input id="answer3">
+      <br><br>
+      <p id="question4"></p>
+      <input id="answer4">
+      <br><br>
+      <p id="question5"></p>
+      <p id="question5a"></p>
+      <p id="question5b"></p>
+      <p id="question5c"></p>
+      <p id="question5d"></p>
+      <input id="answer5">
+      <br><br>
+      <p id="question6"></p>
+      <p id="question6a"></p>
+      <p id="question6b"></p>
+      <p id="question6c"></p>
+      <p id="question6d"></p>
+      <input id="answer6">
+      <br><br>
+      <p id="question7"></p>
+      <input id="answer7">
+      <br><br>
+      <button id="check-answer">Check Answers</button>
+      <br><br>
+      <p id="inline">You scored</p>
+      <p id="result"></p>
+      <p id="inline">/7</p>
+      <br>
+      <button onclick="window.location.href='quiz.html'">Try again!</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+ </body>
+</html>
