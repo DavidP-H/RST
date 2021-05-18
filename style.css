@@ -42,8 +42,8 @@ li a:hover {
   border-color: black;
 }
 
-a:link,
-a:visited {
+li a:link,
+li a:visited {
   color: #fcfcfc;
 }
 
@@ -51,7 +51,7 @@ a:visited {
   display: inline;
 }
 
-#inline {
+.inline {
   display: inline;
 }
 
