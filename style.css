@@ -12,7 +12,6 @@ body {
 
 #mainheader {
   font-family: 'Orelega One', cursive;
-  margin-bottom: 200px;
 }
 
 ul {
@@ -62,4 +61,27 @@ a:visited {
 
 #quiz {
   display: none;
+}
+
+.img-right {
+  float: right;
+  border-style: ridge;
+  border-color: #fcfcfc;
+  border-width: 3px;
+  margin: 20px;
+}
+
+.img-left {
+  float: left;
+  border-style: ridge;
+  border-color: #fcfcfc;
+  border-width: 3px;
+  margin: 20px;
+}
+
+.img-center {
+  border-style: ridge;
+  border-color: #fcfcfc;
+  border-width: 3px;
+  margin: auto;
 }

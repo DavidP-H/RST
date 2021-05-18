@@ -70,7 +70,7 @@ function quizAnswers () {
   quizAnswer7();
   document.getElementById('result').innerHTML = score
 }
-
+// these functions check to see if the answer matches with what is written, (in the function below it checks for RAM or ram) then adds to the variable 'score' if correct.
 function quizAnswer1 () {
   a1 = document.getElementById('answer1').value
   if (a1 === 'RAM' || a1 === 'ram') {
