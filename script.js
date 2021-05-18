@@ -72,49 +72,49 @@ function quizAnswers () {
 }
 // these functions check to see if the answer matches with what is written, (in the function below it checks for RAM or ram) then adds to the variable 'score' if correct.
 function quizAnswer1 () {
-  let a1 = document.getElementById('answer1').value
+  const a1 = document.getElementById('answer1').value
   if (a1 === 'RAM' || a1 === 'ram') {
     score++
   }
 }
 
 function quizAnswer2 () {
-  let a2 = document.getElementById('answer2').value
+  const a2 = document.getElementById('answer2').value
   if (a2 === 'B' || a2 === 'b') {
     score++
   }
 }
 
 function quizAnswer3 () {
-  let a3 = document.getElementById('answer3').value
+  const a3 = document.getElementById('answer3').value
   if (a3 === 'A' || a3 === 'a') {
     score++
   }
 }
 
 function quizAnswer4 () {
-  let a4 = document.getElementById('answer4').value
+  const a4 = document.getElementById('answer4').value
   if (a4 === 'GPU' || a4 === 'gpu') {
     score++
   }
 }
 
 function quizAnswer5 () {
-  let a5 = document.getElementById('answer5').value
+  const a5 = document.getElementById('answer5').value
   if (a5 === 'C' || a5 === 'c') {
     score++
   }
 }
 
 function quizAnswer6 () {
-  let a6 = document.getElementById('answer6').value
+  const a6 = document.getElementById('answer6').value
   if (a6 === 'D' || a6 === 'd') {
     score++
   }
 }
 
 function quizAnswer7 () {
-  let a7 = document.getElementById('answer7').value
+  const a7 = document.getElementById('answer7').value
   if (a7 === 'A' || a7 === 'a') {
     score++
   }
